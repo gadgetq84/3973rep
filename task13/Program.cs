@@ -28,3 +28,4 @@ else
     Console.WriteLine($"{x_digit_num} -> третьей цифры нет");
 }
 
+
