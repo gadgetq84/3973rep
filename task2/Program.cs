@@ -1,6 +1,14 @@
 ﻿// метка, символизирует начало повторяющегося блока
 begLoop:
 Console.Clear();
+string? test1 = Console.ReadLine();
+int test = -1;
+if(test1!=null && test1.Length>0)
+{
+ test = Convert.ToInt32(test1);
+}
+Console.WriteLine(test1.Length);
+
 Console.WriteLine("Введите число a:");
 string? a = Console.ReadLine();
 
