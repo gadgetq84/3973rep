@@ -36,3 +36,5 @@ else
 {
     Console.WriteLine("В числе не 5 символов!!");
 }
+
+Console.WriteLine(dictPalindroms[2345]);
