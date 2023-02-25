@@ -1,5 +1,6 @@
 ﻿Console.Clear();
 //method that implements the input of a number
+
 string ReadData(string WrDate)
 {
     Console.WriteLine(WrDate);
