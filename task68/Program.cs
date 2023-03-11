@@ -23,6 +23,13 @@ Console.Clear();
 uint m = ReadData("Введите m:");
 uint n = ReadData("Введите n:");
 //проверяем что m меньше n если не так меняем местами
-uint res = Akkerman(m, n);
-// ..вывод
-Console.WriteLine($"Результат работы функции Аккермана: {res}");
+if (m >= 0 && n >= 0)
+{
+    uint res = Akkerman(m, n);
+    // ..вывод
+    Console.WriteLine($"Результат работы функции Аккермана: {res}");
+}
+else
+{
+    Console.WriteLine($"Числа не положитльные!!!");
+}
